@@ -1,0 +1,43 @@
+/* Adjustments for responsiveness */
+@media only screen and (max-width: 768px) {
+    .container {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 90%; /* Adjust as needed */
+    }
+    fieldset {
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%; /* Adjust as needed */
+    }
+}
+
+/* Original CSS */
+table {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid black 2px;
+    border-radius: 10px;
+    width: 90%;
+    margin-left: 50px;
+}
+
+fieldset {
+    margin-left: 20%;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    width: 70%;
+}
+
+fieldset,
+img {
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.container {
+    justify-content: center;
+    align-items: center;
+}
